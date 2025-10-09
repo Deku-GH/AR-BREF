@@ -116,14 +116,43 @@
             50% { transform: scale(1.1); opacity: 0.8; }
         }
 
-        .hero-content {
-            max-width: 1400px;
-            padding: 2rem;
-            text-align: center;
-            z-index: 1;
+       
+        .contact{
+            background-color: #ffffff8a;
+              text-align: center;
+             border-radius: 25px;
+             font-size: 150%;
+             box-sizing: border-box;
+             
+           
         }
-
-        .hero h1 {
+        .text_contact {
+        
+        color: #000000;
+        max-width: 140px;
+         font-weight: bold;
+        text-align: center;
+         font-size: larger;
+        }
+        .input_text
+        {
+            background-color: rgb(251, 250, 255);
+             width: 50%;
+              padding: 12px;
+               box-sizing: border-box;
+              
+                border: #0c48c9;
+                 border-radius: 25px;
+        } 
+        #submit_contact
+    {
+        color: #000000;
+        font-size: larger;
+        font-weight: bold;
+        background-color: #0c48c9;
+        
+    }
+               .hero h1 {
             font-size: 4rem;
             margin-bottom: 1.5rem;
             background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
