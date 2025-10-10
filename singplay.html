@@ -24,24 +24,46 @@
                 <li><a href="actualites.html">Actualités</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="aboutus.html">A propose de Nous</a></li>
+                <li><a href="singplay.html"> sing></a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Hero Section -->
     <section id="accueil" class="hero">
-        <div class="hero-contact">
+        <div class="h-contact">
             <h1>pour contacter Nous</h1>
-            <form action="" class="contact">
-                <label for="text" class="text_contact">full name :</label>
-                <input type="text" class="input_text" \> <br>
-                <label for="text" class = "text_contact">EMAIL : </label>
-                <input type="email" class="input_text" \> <br>
-                      <label for="text" class = "text_contact">subject : </label>
-                <input type="text" class="input_text" \> <br>
-                <label for="massage" class="text_contact">your massage :</label><br>
-                <textarea name="massage" rows="4" cols="30" class="input_text"></textarea><br>
-                <input type="submit" class="input_text" id="submit_contact" value="send">
+            <!-- change the class -->
+            <form class="sing">
+                <div class="sing_play">
+                <div class="long_fullname">
+                    <label for="text" class="text_contact">full name :</label>
+                    <input type="text" class="input_text" \> <br>
+                    <label for="text" class="text_contact">EMAIL : </label> 
+                    <input type="email" class="input_text" \> <br>
+                    <label for="text" class="text_contact">subject : </label> 
+                    <input type="text" class="input_text" \> <br>
+                </div>
+                <div class="input_choos">
+                    <div class="gender">
+                        <label >choose your gender :</label><br>
+                        <select name="gender" id="">
+                            
+                            <option>femelle</option>
+                            <option>male</option>
+                        </select>
+                    </div>
+                    <div class="time">
+                        <label for="">tchoose your birthdaym :</label><br>
+                        <input type="datetime-local">
+                    </div>
+                </div>
+               </div>
+               <div class="button_sing">
+                <button type="submit" id="button_ss">sing up</button>
+
+               </div>
+                
             </form>
 
 
@@ -83,7 +105,8 @@
                 <div class="social-links">
                     <a href="https://www.facebook.com/" class="social-link" aria-label="Facebook" target="_blank">f</a>
                     <a href="https://www.Twitter.com/" class="social-link" aria-label="Twitter" target="_blank">𝕏</a>
-                    <a href="https://www.instagram.com/" class="social-link" aria-label="Instagram" target="_blank">📷</a>
+                    <a href="https://www.instagram.com/" class="social-link" aria-label="Instagram"
+                        target="_blank">📷</a>
                     <a href="https://www.Discord.com/" class="social-link" aria-label="Discord" target="_blank">💬</a>
                 </div>
             </div>
